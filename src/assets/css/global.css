@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+}
+
+* {
+  font-family: 'Quicksand',sans-serif;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.b-container {
+  width: 1300px;
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.b-posts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.b-post {
+  width: 45%;
+  -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  cursor: pointer;
+}
+
+.b-post:hover {
+  -webkit-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+  margin: -5px 0 25px 0;
+}
+/*# sourceMappingURL=global.css.map */

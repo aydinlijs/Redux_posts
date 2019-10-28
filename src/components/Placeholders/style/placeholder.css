@@ -1,0 +1,45 @@
+.placeholder-box {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.animate-cursor h2 {
+  font-size: 30px;
+  display: inline-block;
+  padding-right: 12px;
+  -webkit-animation: type .7s alternate infinite;
+          animation: type .7s alternate infinite;
+  color: #888;
+}
+
+@-webkit-keyframes type {
+  from {
+    -webkit-box-shadow: inset -3px 0px 0px #888;
+            box-shadow: inset -3px 0px 0px #888;
+  }
+  to {
+    -webkit-box-shadow: inset -3px 0px 0px transparent;
+            box-shadow: inset -3px 0px 0px transparent;
+  }
+}
+
+@keyframes type {
+  from {
+    -webkit-box-shadow: inset -3px 0px 0px #888;
+            box-shadow: inset -3px 0px 0px #888;
+  }
+  to {
+    -webkit-box-shadow: inset -3px 0px 0px transparent;
+            box-shadow: inset -3px 0px 0px transparent;
+  }
+}
+/*# sourceMappingURL=placeholder.css.map */

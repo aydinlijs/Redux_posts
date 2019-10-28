@@ -1,0 +1,20 @@
+.placeholder-box{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.animate-cursor h2{
+    font-size: 30px;
+    display: inline-block;
+    padding-right: 12px;
+    animation: type .7s alternate infinite;
+    color: #888;
+}
+
+@keyframes type{
+    from{box-shadow: inset -3px 0px 0px #888;}
+    to{box-shadow: inset -3px 0px 0px transparent;}
+}
